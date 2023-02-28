@@ -1,5 +1,9 @@
+/* my coustom styles */
 .primary-color{
     background-color: #B68C5A!important;
+}
+.title-color{
+    color: #414040;
 }
 .text-color{
     font-size: 16px;

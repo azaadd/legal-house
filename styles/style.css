@@ -14,5 +14,12 @@
     font-size: 16px;
     color: #707070;
 }
-
-
+.footer-text-color{
+    color: #a8a4a4;
+}
+.send-icon{
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #B68C5A;
+    margin-left: -7px;
+}

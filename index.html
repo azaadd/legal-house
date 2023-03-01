@@ -27,30 +27,66 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav m-auto mb-2 mb-lg-0">
                         
-                    <li class="nav-item me-4">
-                        <a class="nav-link active text-color" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item me-4 d-flex align-items-center">
-                        <a class="nav-link text-color" href="#">Services</a>
-                        <i class="fa-solid fa-chevron-right right-angle"></i>
-                    </li>
-                    <li class="nav-item me-4 d-flex align-items-center">
-                        <a class="nav-link text-color" href="#">Cases</a>
-                        <i class="fa-solid fa-chevron-right right-angle"></i>
-                    </li>
-                    <li class="nav-item me-4 d-flex align-items-center">
-                        <a class="nav-link text-color" href="#">Blog</a>
-                        <i class="fa-solid fa-chevron-right right-angle"></i>
-                    </li>
-                    <li class="nav-item d-flex align-items-center">
-                        <a class="nav-link text-color" href="#">Contact Us</a>
-                        <i class="fa-solid fa-chevron-right right-angle"></i>
-                    </li>
+                        <li class="nav-item me-4">
+                            <a class="nav-link active text-color" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item me-4 d-flex align-items-center">
+                            <a class="nav-link text-color" href="#">Services</a>
+                            <i class="fa-solid fa-chevron-right right-angle"></i>
+                        </li>
+                        <li class="nav-item me-4 d-flex align-items-center">
+                            <a class="nav-link text-color" href="#">Cases</a>
+                            <i class="fa-solid fa-chevron-right right-angle"></i>
+                        </li>
+                        <li class="nav-item me-4 d-flex align-items-center">
+                            <a class="nav-link text-color" href="#">Blog</a>
+                            <i class="fa-solid fa-chevron-right right-angle"></i>
+                        </li>
+                        <li class="nav-item d-flex align-items-center">
+                            <a class="nav-link text-color" href="#">Contact Us</a>
+                            <i class="fa-solid fa-chevron-right right-angle"></i>
+                        </li>
                     
                     </ul>
-                    <button class="btn primary-color text-white rounded" type="submit">Free Consultation</button>
                     
-              </div>
+                    <button type="button" class="btn primary-color text-white rounded" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Free Consultation</button>
+
+                    <div class="modal fade" id="exampleModal" tabindex="-1"  aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Join for free consultation</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                    <div class="mb-3">
+                                        <label for="recipient-name" class="col-form-label">Name:</label>
+                                        <input type="text" placeholder="Type Your Name" class="form-control" id="recipient-name">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="recipient-name" class="col-form-label">phone:</label>
+                                        <input type="text" placeholder="Enter Your phone Number" class="form-control" id="recipient-name">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="recipient-name" class="col-form-label">E-mail:</label>
+                                        <input type="email" placeholder="Enter Your Email Address" class="form-control" id="recipient-name">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="message-text" class="col-form-label">Address:</label>
+                                        <textarea placeholder="Write Your Address" class="form-control" id="message-text"></textarea>
+                                    </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Send message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
             </div>
         </nav>
 
